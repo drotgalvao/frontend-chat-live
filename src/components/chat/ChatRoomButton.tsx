@@ -13,7 +13,7 @@ export default function ChatRoomButton({ chatRoom }: Props) {
 
   const { id, name } = chatRoom
 
-  const [numberOfUnreadMessages, setNumberOfUnreadMessages] = useState(0)
+  const [numberOfUnreadMessages] = useState(0)
 
   // useEffect(() => {
   //   setNumberOfUnreadMessages(unreadMessages.get(id) ?? 0)

@@ -223,3 +223,14 @@ export const ChatProvider = ({ children }: PropsWithChildren) => {
 
   return <ChatContext.Provider value={value}>{children}</ChatContext.Provider>
 }
+
+export type TChatUser = {
+  id: number,
+  firstName: string,
+  lastName: string,
+  isOnline: boolean,
+
+
+  // Adicione outras propriedades relevantes do TChatUser aqui
+  // ...
+}
