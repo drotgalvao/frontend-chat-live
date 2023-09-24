@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["./src/*"],
-      // "@backend/*": ["../backend-chat-live/src/*"]
+      "@backend/*": ["../backend-chat-live/src/*"]
     }
   },
   "include": ["src/**/*"],

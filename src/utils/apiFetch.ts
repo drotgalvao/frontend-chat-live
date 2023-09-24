@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000"
+const BASE_URL = process.env.REACT_APP_BASE_URL  || "http://localhost:4000"
 
 export const apiFetch = async (endpoint: string, options?: RequestInit) => {
   const url = `${BASE_URL}${endpoint}`
